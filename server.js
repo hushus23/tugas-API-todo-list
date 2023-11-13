@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 require('dotenv').config();
-const port = process.env.PORT;
+const port = process.env.PORT || 8080;
 const url = process.env.MONG_URl;
 
 mongoose.connect(url).then(() => {
@@ -41,6 +41,6 @@ app.use('/', (req,res) => {
   res.send('welcome to the server homepage')
 })
 
-app.listen(port, () => {
+app.listen(port, "0.0.0.0", () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
