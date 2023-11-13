@@ -11,7 +11,7 @@ Todo List API Services using Express JS and MongoDB
 
 ### Cloning this repo
 ```cmd
-> git clone https://github.com/fawwaz37/todo-express-mongodb.git
+> git clone https://github.com/hushus23/tugas-API-todo-list.git
 > cd tugas-API-todo-list
 ```
 
