@@ -67,7 +67,7 @@ The application will be available at: `http://localhost:8080`
 Link deploy on railway: https://tugas-api-todo-list.up.railway.app/
 
 ## API Documentation
-Link API documentation on postman: https://api.postman.com/collections/30478309-29d4ddf3-22a1-407d-be7d-f3959f95e8a0?access_key=PMAT-01HF31EN3KB3ZXXXQ1AWSH6W22
+API documentation on postman
 
 ## Author
 - [Nurul Husna] 
