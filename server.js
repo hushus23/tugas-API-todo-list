@@ -37,6 +37,10 @@ app.delete('/todos/:id', Controller.cleanTodo);
 
 app.delete('/todos', Controller.cleanAllTodos);
 
+app.use('/', (req,res) => {
+  res.send('welcome to the server homepage')
+})
+
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
